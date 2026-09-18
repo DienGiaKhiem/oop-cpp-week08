@@ -22,8 +22,8 @@ int main(){
     cout << message << endl;
 
     //step 4
-    string s = "Hello C++";
-    cout << "Length of string: " << s.length() << endl;
+    string z = "Hello";
+    cout << "Length of string: " << z.length() << endl;
 
     //step 5
     string s = "Hello C++";
@@ -39,6 +39,19 @@ int main(){
         cout << "'C++' not found in the text." << endl;
     }
 
+    //step 7
+    string text = "Hello C++ World";
+    string part = text.substr(6, 3); 
+    cout << part << endl;
+
+    //step 8
+    string s1 = "apple";
+    string s2 = "apple";
+    if(s1.compare(s2) == 0) {
+        cout << " The strings are equal " << endl;
+    } else {
+        cout << " The strings are different " << endl;
+    }
     return 0;
 }
  
